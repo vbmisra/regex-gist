@@ -43,6 +43,11 @@ Quantifiers in regex specify how many times a specific character, group or chara
 | +          | c+       | matches preceding item "c" 1 or more times           |
 | ?          | c?       | matches preceding item "c" 0 or 1 time               |
 | {}         | c{n}     | n is a positive integer; matches n occurrences of "c"|
+| {,}        | c{n,m}   | match "c" from n to m times                          |
+| {,}        | c{n,}    | match "c" at least n times                           |
+
+
+Note: quantifiers may be sub-categorized as "lazy" or "greedy." "Lazy" implies the quantifier will consume as little as possible, meaning it will match the shortest possible string. "Greedy" means the opposite - the quantifier will consume as much as possible, meaning it will match the longest possible strings. Adding a "?" quantifier to the end of another quantifier can convert from "greedy" to "lazy," i.e. c{n} is greedy but c{n}? is considered lazy. 
 
 ### Grouping Constructs
 
