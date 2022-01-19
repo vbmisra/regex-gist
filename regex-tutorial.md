@@ -31,11 +31,11 @@ Here is an example of regex code:
 ### Anchors
 In regex, anchors are used to pin the match at a specific position. Anchors can match a position before, after, or between characters. The table below specifies common anchors and their functions.
 
-| Anchor   | Description                                                    |
-|  :--:    |   :-----:                                                      |
-|   ^start | matches any string that starts with "start"                    |
-|   end$   | matches any string that ends with "end"                        |
-| ^middle$ | exact match to word "middle"                                   |
+| Anchor   | Example  | Description                                  |
+|  :--:    |   :--:   | :-----:                                      |
+|   ^      | ^start   | matches any string that starts with "start"  |
+|   $      | end$     | matches any string that ends with "end"      |
+| ^ $      | ^middle$ | exact match to word "middle"                 |
 
 ### Quantifiers
 
