@@ -35,6 +35,14 @@ In regex, anchors are used to pin the match at a specific position. Anchors can 
 | ^ $      | ^middle$ | exact match to word "middle"                 |
 
 ### Quantifiers
+Quantifiers in regex specify how many times a specific character, group or character class must occur in the input to find a match. Below is a table that specifies quantifiers and their functions.
+
+| Quantifier | Example  | Description                                          |
+| :-----:    | :--:     | :----:                                               |
+| *          | c*       | matches preceding item "c" 0 or more times           |
+| +          | c+       | matches preceding item "c" 1 or more times           |
+| ?          | c?       | matches preceding item "c" 0 or 1 time               |
+| {}         | c{n}     | n is a positive integer; matches n occurrences of "c"|
 
 ### Grouping Constructs
 
