@@ -8,12 +8,9 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 The goal of this tutorial is to allow the reader to have a quick-reference guide to the basics of regex (also known as regexp). Regex is a sequence of characters that specifies a search pattern in text, thereby allowing users to create search patterns that match and locate text. As a result, regex are commonly used in search engines and find/replace dialogs of word processors.
 
-Here is an example of regex code:
+Here is an example of regex code. It says "Hello World":
 
 (?<=\/)\w+
-
-*"Hello World" in regex
-
 
 ## Table of Contents
 
