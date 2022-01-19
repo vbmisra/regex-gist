@@ -6,7 +6,7 @@ This tutorial will explore how regex (short for: regular expressions) work and w
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
 
-The goal of this tutorial is to allow the reader to have a quick-reference guide to the basics of regex (also known as regexp). Regex is a sequence of characters that specifies a search pattern in text - they allow users to create search patterns that match, manage and locate text. As a result, regex are commonly used in search engines and find/replace dialogs of word processors.
+The goal of this tutorial is to allow the reader to have a quick-reference guide to the basics of regex (also known as regexp). Regex is a sequence of characters that specifies a search pattern in text, thereby allowing users to create search patterns that match and locate text. As a result, regex are commonly used in search engines and find/replace dialogs of word processors.
 
 Here is an example of regex code:
 
@@ -29,6 +29,13 @@ Here is an example of regex code:
 ## Regex Components
 
 ### Anchors
+In regex, anchors are used to pin the match at a specific position. Anchors can match a position before, after, or between characters. The table below specifies common anchors and their functions.
+
+| Anchor   | Description                                                    |
+|  :--:    |   :-----:                                                      |
+|   ^start | matches any string that starts with "start"                    |
+|   end$   | matches any string that ends with "end"                        |
+| ^middle$ | exact match to word "middle"                                   |
 
 ### Quantifiers
 
