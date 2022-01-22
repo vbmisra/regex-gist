@@ -50,10 +50,33 @@ Quantifiers in regex specify how many times a specific character, group or chara
 Note: quantifiers may be sub-categorized as "lazy" or "greedy." "Lazy" implies the quantifier will consume as little as possible, meaning it will match the shortest possible string. "Greedy" means the opposite - the quantifier will consume as much as possible, meaning it will match the longest possible strings. Adding a "?" quantifier to the end of another quantifier can convert from "greedy" to "lazy," i.e. c{n} is greedy but c{n}? is considered lazy. 
 
 ### Grouping Constructs
+Grouping constructs separate and identify the subexpressions of a regular expression and capture substrings of an input string. Groups are marked by parenthesis as follows: (....) 
+
+Grouping constructs can be used for:
+* Matching a subexpression that is repeated in the input string
+* Adding a quantifier to a subexpression that has many regex elements
+* Including a subexpression in the string that is returned by replace and match
+* Retreiving individual subexpressions from match groups
+
 
 ### Bracket Expressions
 
 ### Character Classes
+The table below shows different character classes and demarcations:
+
+| Class | Demarcation | Definition|
+| :--:  | :--:        | :--:      |
+| Positive | blah | blah |
+| Negative | blah | blah | 
+| Any      | blah | blah |
+| Unicode  | blah | blah |
+| Negative Unicode | blah | blah |
+| Word Character | blah | blah |
+| Non-word Character | blah | blah |
+| white space character | blah | blah |
+| non white space character | blah | blah |
+| decimal digit | blah | blah |
+| non decimal digit | blah | blah |
 
 ### The OR Operator
 
