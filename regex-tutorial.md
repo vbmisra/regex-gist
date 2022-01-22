@@ -66,7 +66,7 @@ The table below shows different character classes and demarcations:
 
 | Class | Demarcation | Definition|
 | :--:  | :--:        | :--:      |
-| Positive | blah | blah |
+| Positive | [] | specifies list of characters, any of which may appear in an input string |
 | Negative | blah | blah | 
 | Any      | blah | blah |
 | Unicode  | blah | blah |
