@@ -66,17 +66,17 @@ The table below shows different character classes and demarcations:
 
 | Class | Demarcation | Definition|
 | :--:  | :--:        | :--:      |
-| Positive | [] | specifies list of characters, any of which may appear in an input string |
-| Negative | blah | blah | 
-| Any      | blah | blah |
-| Unicode  | blah | blah |
-| Negative Unicode | blah | blah |
-| Word Character | blah | blah |
-| Non-word Character | blah | blah |
-| white space character | blah | blah |
-| non white space character | blah | blah |
-| decimal digit | blah | blah |
-| non decimal digit | blah | blah |
+| Positive | [] | specifies list of characters, any of which may appear in an input string for a match to occur |
+| Negative | [^] | defines what must not appear in an input string for a match to occur | 
+| Any      | . | matches any character except "new line \n" |
+| Unicode  | \p{} | assigns a general category to each character; follows positive class rule |
+| Negative Unicode | \P{} | assigns general category to character; follows negative class rule |
+| Word Character | \w | matches any word character |
+| Non-word Character | \W | matches any nonword character |
+| white space character | \s | matches any whitespace character |
+| non white space character | \S | matches any non-whitespace character |
+| decimal digit | \d | matches any decimal digit |
+| non decimal digit | \D | matches any non-digit character |
 
 ### The OR Operator
 
