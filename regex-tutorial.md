@@ -83,6 +83,23 @@ The table below shows different character classes and demarcations:
 ### Flags
 
 ### Character Escapes
+Character escapes are denoted by the backslash "\" character. It identifies the character following the backslash as a special character, as in one that takes on a meaning separate from the character itself. Below is a table of character escapes in regex:
+
+| Sequence | Meaning |
+| :--:     | :--:    |
+| \a | matches an alarm character |
+| \b | matches a backspace |
+| \t | matches a tab |
+| \r | matches a carriage return |
+| \v | matches a vertical tab |
+| \f | matches a form feed |
+| \n | matches a new line |
+| \e | matches an escape |
+| \ nnn | matches an ASCII character |
+| \x nn | matches an ASCII character |
+| \c X | matches an ASCII control character |
+| \u nnnn | matches a UTF-16 character |
+| \ | matches the character that follows if it is not recognized as an escaped character |
 
 ## Author
 
