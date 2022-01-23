@@ -79,6 +79,9 @@ The table below shows different character classes and demarcations:
 | non decimal digit | \D | matches any non-digit character |
 
 ### The OR Operator
+The OR operator is denoted by a vertical bar, |. It allows for matching of a single regular expression from a series of possibilites. It is also known as the alternation operator.
+
+The OR operator has a very broad scope in that it will match everything to the left or right of the vertical bar. For example, x(y | z) matches a string x that is followed by y or z. To limit the scope, grouping via parenthesis must be used to only match items within the groups.
 
 ### Flags
 Flags in regex are optional tokens that allow for modified searching. The table below shows flags and their functionality.
