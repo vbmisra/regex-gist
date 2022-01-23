@@ -60,6 +60,8 @@ Grouping constructs can be used for:
 
 
 ### Bracket Expressions
+Bracket expressions are expressions enclosed by a set of brackets []. A search function will match any character within the set of brackets, unless the bracket expression begins with a caret, ^. This caret denotes a negative character class, described in the next section, meaning the search will yield characters not included in the brackets.
+
 
 ### Character Classes
 The table below shows different character classes and demarcations:
