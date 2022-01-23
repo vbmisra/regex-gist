@@ -81,6 +81,18 @@ The table below shows different character classes and demarcations:
 ### The OR Operator
 
 ### Flags
+Flags in regex are optional tokens that allow for modified searching. The table below shows flags and their functionality.
+
+| Flag | Name | Function |
+| :--: | :--: | :--:     |
+| i | Ignore Casing | Ignores case-sensitivity in searching |
+| g | Global        | expression searches for all occurrences |
+| s | Dot All       | Makes the wild character . match newlines |
+| m | Multiline     | Makes boundary characters ^ and $ match beginning and ending of every line rather than every string |
+| y | Sticky        | Expression starts search from index in lastIndex property |
+| u | Unicode       | Expression assume individual characters are code points, not code units |
+
+The syntax for a flag is: /pattern/flag
 
 ### Character Escapes
 Character escapes are denoted by the backslash "\" character. It identifies the character following the backslash as a special character, as in one that takes on a meaning separate from the character itself. Below is a table of character escapes in regex:
